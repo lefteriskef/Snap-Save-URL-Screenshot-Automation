@@ -10,6 +10,7 @@ import sys
 import threading
 
 docxfile = r"C:\Users\lefte\Downloads\Screenshots_project\Snap-Save-URL-Screenshot-Automation\shots.docx"
+test = 0
 shotfile = r"C:\Users\lefte\Downloads\Screenshots_project\Snap-Save-URL-Screenshot-Automation\shots\shot.png"
 
 if not os.path.exists(docxfile):
