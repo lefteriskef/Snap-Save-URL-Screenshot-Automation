@@ -24,7 +24,7 @@ def do_cap():
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     shot = pyautogui.screenshot()
     shot.save(shotfile)
-    doc.add_paragraph(f"📷 Screenshot taken at {timestamp}:")
+    doc.add_paragraph(f"Screenshot taken at {timestamp}:")
     doc.add_picture(shotfile, width=Inches(7))
     keyboard.press_and_release('ctrl+l')
     time.sleep(1)
